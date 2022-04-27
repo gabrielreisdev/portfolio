@@ -14,7 +14,7 @@ const data = [
     id: 1,
     image: IMG1,
     title: 'HPraxedes',
-    demo: 'https://github.com'
+    demo: 'https://hpraxedes.com'
   },
   {
     id: 2,
