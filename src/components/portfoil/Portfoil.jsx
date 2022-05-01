@@ -26,32 +26,17 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: 'Tailwind Project',
+    title: 'Projeto Tailwind',
     github: 'https://github.com/gabrielreisdev/tailwind-project',
     demo: 'https://tailwind-project-gamma.vercel.app'
   },
   {
     id: 4,
     image: IMG4,
-    title: 'Em breve!',
-    github: 'https://github.com/gabrielreisdev',
-    demo: 'https://github.com/gabrielreisdev'
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: 'Em breve!',
-    github: 'https://github.com/gabrielreisdev',
-    demo: 'https://github.com/gabrielreisdev'
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: 'Em breve!',
-    github: 'https://github.com/gabrielreisdev',
-    demo: 'https://github.com/gabrielreisdev'
+    title: 'Projeto UI/UX',
+    figma: 'https://github.com/gabrielreisdev',
+    demo: 'https://www.figma.com/file/5AvCQQpc1GNm6FExAc0MOJ/Food?node-id=0%3A1'
   }
-
 
 ]
 
@@ -72,7 +57,7 @@ const Portfoil = () => {
                 <h3>{title}</h3>
                 <div className="portfolio__item-cta">
                 <a href={github} className='btn' target='_blank'>Github</a>
-                <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                <a href={demo} className='btn btn-primary' target='_blank'>Abrir Site</a>
                 </div>
         </article>
             )
