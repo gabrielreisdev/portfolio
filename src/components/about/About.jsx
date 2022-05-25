@@ -36,12 +36,7 @@ const About = () => {
                 <small>5+ projetos finalizados</small>
             </article>
           </div>
-          <p>Meu nome é Gabriel, tenho 24 anos, estou finalizando o bacharelado em Ciência da Computação pela UNIFACS e busco uma vaga no mercado onde possa
-colocar minhas habilidades em prática e
-colaborar com equipes de trabalho, tendo o
-crescimento da organização e o
-desenvolvimento pessoal e profissional
-como focos principais</p>
+          <p style={{textAlign: 'justify', color: 'white'}}>Meu nome é Gabriel, tenho 24 anos, estou finalizando o bacharelado em Ciência da Computação pela UNIFACS e busco uma vaga no mercado onde possa colocar minhas habilidades em prática e colaborar com equipes de trabalho, tendo o crescimento da organização e o desenvolvimento pessoal e profissional como focos principais.</p>
           <a href="#contact" className='btn btn-primary'>Vamos Conversar</a>
         </div>
       </div>

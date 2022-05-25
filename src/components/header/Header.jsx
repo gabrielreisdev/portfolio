@@ -9,9 +9,9 @@ const Header = () => {
   return (
   <header>
     <div className="container header__container">
-      <h5>Olá, eu sou</h5>
+      <h4>Olá, eu sou</h4>
       <h1>Gabriel Reis</h1>
-      <h5 className="text-light">Desenvolvedor Front-End</h5>
+      <h4>Desenvolvedor Front-End</h4>
       <CTA/>
       <HeaderSocials/> 
 
@@ -19,7 +19,7 @@ const Header = () => {
         <img src={ME} alt="me" />
       </div>
 
-      <a href="#contact" className='scroll__down'><MdOutlineArrowForwardIos/></a>
+      <a style={{color:'var(--color-bg-variant'}}href="#contact" className='scroll__down'><MdOutlineArrowForwardIos/></a>
 
     </div>
   </header>

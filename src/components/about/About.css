@@ -36,13 +36,13 @@
     text-align: center;
     transition: var(--transition);
 }
-.about__card:hover{
+/* .about__card:hover{
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
-}
+} */
 .about__icon{
-    color: var(--color-primary);
+    color: var(--color-primary-variant);
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }
@@ -56,7 +56,7 @@
 }
 .about__content p{
     margin: 2rem 0 2.6rem;
-    color: var(--color-light);
+    color: #2c2b2a;
 
 }
 

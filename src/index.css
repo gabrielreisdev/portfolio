@@ -11,10 +11,10 @@
 }
 
 :root{
-    --color-bg: #22223f;    
-    --color-bg-variant: #2c2c6c;
-    --color-primary: #3ba1e9;
-    --color-primary-variant: rgba(34, 163, 255, 0.4);
+    --color-bg: #ffffff;    
+    --color-bg-variant: #6f3ef5;
+    --color-primary: #9c77ff;
+    --color-primary-variant: #cbb8ff;
     --color-white: #fff;
     --color-light: rgba(255,255,255,0.6);
 
@@ -34,9 +34,7 @@ html{
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
-
-
+    background-color: #161616;
     color: var(--color-white);
     line-height: 1.7;
     
@@ -65,7 +63,7 @@ section > h2, section > h5{
     color: var(--color-light);
 }
 section > h2 {
-    color: var(--color-primary);
+    color:  #ffffff;
     margin-bottom: 3rem;
 }
 
@@ -87,15 +85,14 @@ a:hover{
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
     cursor: pointer;
-    border: 1px solid var(--color-primary);
     transition: var(--transition);
 }
 .btn:hover{
-    background: var(--color-white);
+    background: var(--color-primary);
     color: var(--color-bg);
 }
 .btn-primary{
-    background: var(--color-primary);
+    background: var(--color-bg-variant);
     color: var(--color-bg);
 }
 img{

@@ -9,13 +9,13 @@
     height: fit-content;
     transition: var(--transition);
 }
-.service:hover{
+/* .service:hover{
     background: transparent;
     
     border-color: var(--color-primary-variant);
     cursor: default;
     transition: var(--transition);
-}
+} */
 .service__head{
     background: var(--color-primary);
     padding: 2rem;
@@ -40,7 +40,7 @@
 }
 
 .service__list-icon{
-    color: var(--color-primary);
+    color: var(--color-primary-variant);
     margin: 2px;
 }
 .service__list p{

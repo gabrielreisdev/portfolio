@@ -19,10 +19,10 @@
     border: 1px solid transparent;
     transition: var(--transition);
 }
-.contact__option:hover{
+/* .contact__option:hover{
     background: transparent;
     border-color: var(--color-primary-variant);
-}
+} */
 .contact__option-icon{
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
@@ -31,6 +31,10 @@
     margin-top: 0.7rem;
     display: inline-block;
     font-size: 0.8rem;
+    color: var(--color-white);
+}
+.contact__option a:hover{
+    color: rgb(139, 139, 139);
 }
 .contact__option h5{
     color: var(--color-white);
