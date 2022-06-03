@@ -62,7 +62,7 @@ const Portfoil = () => {
                 </div>
                 <h3>{title}</h3>
                 <div className="portfolio__item-cta">
-                <a style={{color: 'var(--color-white)'}} href={github} className='btn' target='_blank'>Github</a>
+                  {github && <a style={{color: 'var(--color-white)'}} href={github} className='btn' target='_blank'>Github</a> }
                 <a href={demo} className='btn btn-primary' target='_blank'>Abrir Site</a>
                 </div>
         </article>
