@@ -8,6 +8,39 @@ const Services = () => {
       <h2>Serviços</h2>
 
       <div className="container services__container">
+
+      <article className="service">
+          <div className="service__head">
+            <h3>Desenvolvimento Web</h3>
+          </div>
+
+          <ul className='service__list'>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Criação de Sites.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Sites Responsivos.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Landing Pages.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Sistemas.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Banco de Dados.</p>
+            </li>
+
+            
+          </ul>
+        </article>
+        {/* END OF DEV */}
+        
         <article className="service">
           <div className="service__head">
             <h3>UI/UX</h3>
@@ -35,40 +68,12 @@ const Services = () => {
               <p>Figma/AdobeXD e Photoshop/Illustrator.</p>
             </li>
 
-            {/* END OF UX */}
+            
           </ul>
         </article>
+        {/* END OF UX */}
 
-        <article className="service">
-          <div className="service__head">
-            <h3>Desenvolvimento Web</h3>
-          </div>
-
-          <ul className='service__list'>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Criação de Sites.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Sites Responsivos.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Landing Pages.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Sistemas.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Banco de Dados.</p>
-            </li>
-
-            {/* END OF DEV */}
-          </ul>
-        </article>
+        
 
         {/* <article className="service">
           <div className="service__head">

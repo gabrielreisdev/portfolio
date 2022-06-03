@@ -25,18 +25,25 @@ const data = [
   },
   {
     id: 3,
+    image: IMG5,
+    title: 'Modern Website UI/UX em React',
+    github: 'https://github.com/gabrielreisdev/GPT-3' ,
+    demo: 'https://gpt-3-nine.vercel.app'
+  },
+  {
+    id: 4,
     image: IMG3,
     title: 'Projeto Tailwind',
     github: 'https://github.com/gabrielreisdev/tailwind-project',
     demo: 'https://tailwind-project-gamma.vercel.app'
   },
   {
-    id: 4,
+    id: 5,
     image: IMG4,
     title: 'Projeto UI/UX',
-    figma: 'https://github.com/gabrielreisdev',
     demo: 'https://www.figma.com/file/5AvCQQpc1GNm6FExAc0MOJ/Food?node-id=0%3A1'
   }
+  
 
 ]
 
