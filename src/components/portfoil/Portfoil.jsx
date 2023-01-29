@@ -5,7 +5,7 @@ import IMG2 from'../../assets/portfolio2.jpg'
 import IMG3 from'../../assets/portfolio3.jpg'
 import IMG4 from'../../assets/portfolio4.jpg'
 import IMG5 from'../../assets/portfolio5.jpg'
-import IMG6 from'../../assets/portfolio6.jpg'
+import IMG6 from'../../assets/portfoliofc.png'
 
 
 const data = [
@@ -18,6 +18,12 @@ const data = [
   },
   {
     id: 2,
+    image: IMG6,
+    title: 'Futuro Certo',
+    demo: 'https://futurocertoprevtech.com.br/'
+  },
+  {
+    id: 3,
     image: IMG2,
     title: 'Gericht Restaurant',
     github: 'https://github.com/gabrielreisdev/gericht-restaurant',
@@ -62,8 +68,8 @@ const Portfoil = () => {
                 </div>
                 <h3>{title}</h3>
                 <div className="portfolio__item-cta">
-                  {github && <a style={{color: 'var(--color-white)'}} href={github} className='btn' target='_blank'>Github</a> }
-                <a href={demo} className='btn btn-primary' target='_blank'>Abrir Site</a>
+                  {github && <a style={{color: 'var(--color-white)'}} href={github} className='btn' target='_blank' rel="noreferrer">Github</a> }
+                <a href={demo} className='btn btn-primary' target='_blank' rel="noreferrer">Abrir Site</a>
                 </div>
         </article>
             )

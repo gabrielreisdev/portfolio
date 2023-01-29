@@ -42,15 +42,15 @@ header{
 }
 /*===========================ME=========================*/
 .me{
-    background: linear-gradient(var(--color-bg-variant), transparent);
-    width: 22rem;
-    height: 36rem;
-    position: absolute;
-    left: calc(50% - 11rem);
-    margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
-    overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    margin-top: 6rem;
+}
+
+.me img{
+    justify-content: center;
+    align-items: center;
 }
 
 /*===========================SCROLL DOWN=========================*/
@@ -66,7 +66,10 @@ header{
 /*===========================MEDIA QUERY (TABLET)=========================*/
 @media screen and (max-width: 1024px){
     header{
-        height: 68vh;
+        height: 100vh;
+    }
+    .me{
+        width: 70%;
     }
 }
 /*===========================MEDIA QUERY (PHONE)=========================*/
@@ -76,5 +79,8 @@ header{
     }
     .header__socials, .scroll__down{
         display: none;
+    }
+    .me{
+        width: 80%;
     }
 }
